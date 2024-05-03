@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A LOLja Nerd</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/fontawesome-free/css/all.min.css') }}">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css') }}">
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css') }}">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/icheck-bootstrap/icheck-bootstrap.min.css') }}">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/jqvmap/jqvmap.min.css') }}">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='dist/css/adminlte.min.css') }}">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/overlayScrollbars/css/OverlayScrollbars.min.css') }}">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/daterangepicker/daterangepicker.css') }}">
+  <!-- summernote -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/summernote/summernote-bs4.min.css') }}">
+  <!-- Icon -->
+  <link rel="shortcut icon" href="{{ url_for('static', filename='assets/images/favicon.png') }}" />
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body class="hold-transition sidebar-mini layout-fixed sidebar-collapse">
+<div class="wrapper">
+
+  <!-- Preloader -->
+  <div class="preloader flex-column justify-content-center align-items-center">
+    <img class="animation__shake" src="{{ url_for('static', filename='dist/img/AdminLTELogo.png') }}" alt="AdminLTELogo" height="60" width="60">
+  </div>
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav" style="min-width: 100%;">
+      <div class="row d-flex justify-content-between" style="min-width: 100%;">
+        <div class="row">
+          <li class="nav-item">
+            <a class="nav-link" data-widget="pushmenu" href="#" role="button" data-toggle="true"><i class="fas fa-bars"></i></a>
+          </li>
+          <li class="nav-item d-none d-sm-inline-block">
+            <a href="/" class="nav-link">Home</a>
+          </li>
+        </div>
+      </div>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="/" class="brand-link">
+      <img src="{{ url_for('static', filename='dist/img/AdminLTELogo.png') }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light">A LOLja Nerd</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="{{ url_for('static', filename='assets/avatars/avatar.svg') }}" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Admin LOLja</a>
+        </div>
+        <div>
+          <a href="logout.php" class="d-block btn btn-danger">Logout</a>
+        </div>
+      </div>
+
+      <!-- SidebarSearch Form -->
+      <div class="form-inline">
+        <div class="input-group" data-widget="sidebar-search">
+          <input class="form-control form-control-sidebar" type="search" placeholder="Procurar" aria-label="Search">
+          <div class="input-group-append">
+            <button class="btn btn-sidebar">
+              <i class="fas fa-search fa-fw"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item menu-close">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-store-alt"></i>
+              <p>
+                Produtos da Loja
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="/" class="nav-link">
+                  <i class="fas fa-store nav-icon"></i>
+                  <p>Produtos</p>
+                </a>
+              </li>
+              <!-- <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-cart-arrow-down nav-icon"></i>
+                  <p>Compras</p>
+                </a>
+              </li> -->
+            </ul>
+          </li>
+          <li class="nav-item menu-open">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-wrench"></i>
+              <p>
+                Painél de Admin
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="/manage" class="nav-link active">
+                  <i class="fas fa-plus nav-icon"></i>
+                  <p>Cadastro de Produtos</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6 row">
+            <h1 class="m-0">Produtos da LOLja</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active">LOLja Nerd</li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid row">
+        <!-- /.row -->
+        <!-- CARD DE FUNÇÃO ↓ -->
+        <a href="#" data-toggle="modal" data-target="#modal_camisa_tab" class="text-decoration-none">
+            <div class="col-md-12 col-lg-6 col-xl-4">
+                <div class="card-hover-shadow-2x mb-3 card bg-light d-flex justify-content-center" style="height: 75px!important; flex-direction: row!important;">
+                    <div class="rm-border bg-light responsive-center text-center">
+                        <i class="fas fa-plus text-info" style="font-size: 30px; margin-top: 20px; margin-right: 20px"></i>
+                    </div>
+                    <div class="widget-chart widget-chart2 text-center pt-0">
+                        <div class="widget-chat-wrapper-outer">
+                            <div class="widget-chart-content">
+                                <div class="widget-chart-flex">
+                                    <div class="widget-numbers">
+                                        <div class="widget-chart" style="margin-top: 3px!important;">
+                                            <a href="#" data-toggle="modal" data-target="#modal_camisa_tab" onclick="" class="text-decoration-none">
+                                                <div class="text-info"><span style="font-size: 24px;"><b>Cadastrar Camisa</b></span></div>
+                                            </a>
+                                            <div class="text-info"><span style="font-size: 16px; margin-top: -30px">Cadastrar nova camiseta</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="widget-chart-wrapper widget-chart-wrapper-lg he-auto opacity-10 m-0">
+                                <!--<div id="dashboard-sparkline-4"></div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="#" data-toggle="modal" data-target="#modal_caneca_tab" class="text-decoration-none">
+          <div class="col-md-12 col-lg-6 col-xl-4">
+              <div class="card-hover-shadow-2x mb-3 card bg-light d-flex justify-content-center" style="height: 75px!important; flex-direction: row!important;">
+                  <div class="rm-border bg-light responsive-center text-center">
+                      <i class="fas fa-plus text-info" style="font-size: 30px; margin-top: 20px; margin-right: 20px"></i>
+                  </div>
+                  <div class="widget-chart widget-chart2 text-center pt-0">
+                      <div class="widget-chat-wrapper-outer">
+                          <div class="widget-chart-content">
+                              <div class="widget-chart-flex">
+                                  <div class="widget-numbers">
+                                      <div class="widget-chart" style="margin-top: 3px!important;">
+                                          <a href="#" data-toggle="modal" data-target="#modal_caneca_tab" onclick="" class="text-decoration-none">
+                                              <div class="text-info"><span style="font-size: 24px;"><b>Cadastrar Caneca</b></span></div>
+                                          </a>
+                                          <div class="text-info"><span style="font-size: 16px; margin-top: -30px">Cadastrar nova caneca</span></div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div
+                              class="widget-chart-wrapper widget-chart-wrapper-lg he-auto opacity-10 m-0">
+                              <!--<div id="dashboard-sparkline-4"></div>-->
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </a>
+      <a href="#" data-toggle="modal" data-target="#modal_quadrinho_tab" class="text-decoration-none">
+        <div class="col-md-12 col-lg-6 col-xl-4">
+            <div class="card-hover-shadow-2x mb-3 card bg-light d-flex justify-content-center" style="height: 75px!important; flex-direction: row!important;">
+                <div class="rm-border bg-light responsive-center text-center">
+                    <i class="fas fa-plus text-info" style="font-size: 30px; margin-top: 20px; margin-right: 20px"></i>
+                </div>
+                <div class="widget-chart widget-chart2 text-center pt-0">
+                    <div class="widget-chat-wrapper-outer">
+                        <div class="widget-chart-content">
+                            <div class="widget-chart-flex">
+                                <div class="widget-numbers">
+                                    <div class="widget-chart" style="margin-top: 3px!important;">
+                                        <a href="#" data-toggle="modal" data-target="#modal_quadrinho_tab" onclick="" class="text-decoration-none">
+                                            <div class="text-info"><span style="font-size: 24px;"><b>Cadastrar Quadrinho</b></span></div>
+                                        </a>
+                                        <div class="text-info"><span style="font-size: 16px; margin-top: -30px">Cadastrar novo quadrinho</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="widget-chart-wrapper widget-chart-wrapper-lg he-auto opacity-10 m-0">
+                            <!--<div id="dashboard-sparkline-4"></div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+    <a href="#" data-toggle="modal" data-target="#modal_tabela_camisas" class="text-decoration-none">
+      <div class="col-md-12 col-lg-12 col-xl-12">
+          <div class="card-hover-shadow-2x mb-3 card bg-light d-flex justify-content-center" style="height: 75px!important; flex-direction: row!important;">
+              <div class="rm-border bg-light responsive-center text-center">
+                  <i class="fas fa-minus text-danger" style="font-size: 30px; margin-top: 20px; margin-right: 20px"></i>
+              </div>
+              <div class="widget-chart widget-chart2 text-center pt-0">
+                  <div class="widget-chat-wrapper-outer">
+                      <div class="widget-chart-content">
+                          <div class="widget-chart-flex">
+                              <div class="widget-numbers">
+                                  <div class="widget-chart" style="margin-top: 3px!important;">
+                                      <a href="#" data-toggle="modal" data-target="#modal_tabela_camisas" onclick="" class="text-decoration-none">
+                                          <div class="text-danger"><span style="font-size: 24px;"><b>Remover Camisas</b></span></div>
+                                      </a>
+                                      <div class="text-danger"><span style="font-size: 16px; margin-top: -30px">Remover camisas</span></div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div
+                          class="widget-chart-wrapper widget-chart-wrapper-lg he-auto opacity-10 m-0">
+                          <!--<div id="dashboard-sparkline-4"></div>-->
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </a>
+  <a href="#" data-toggle="modal" data-target="#modal_tabela_canecas" class="text-decoration-none">
+    <div class="col-md-12 col-lg-12 col-xl-12">
+        <div class="card-hover-shadow-2x mb-3 card bg-light d-flex justify-content-center" style="height: 75px!important; flex-direction: row!important;">
+            <div class="rm-border bg-light responsive-center text-center">
+                <i class="fas fa-minus text-danger" style="font-size: 30px; margin-top: 20px; margin-right: 20px"></i>
+            </div>
+            <div class="widget-chart widget-chart2 text-center pt-0">
+                <div class="widget-chat-wrapper-outer">
+                    <div class="widget-chart-content">
+                        <div class="widget-chart-flex">
+                            <div class="widget-numbers">
+                                <div class="widget-chart" style="margin-top: 3px!important;">
+                                    <a href="#" data-toggle="modal" data-target="#modal_tabela_canecas" onclick="" class="text-decoration-none">
+                                        <div class="text-danger"><span style="font-size: 24px;"><b>Remover Canecas</b></span></div>
+                                    </a>
+                                    <div class="text-danger"><span style="font-size: 16px; margin-top: -30px">Remover Canecas</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="widget-chart-wrapper widget-chart-wrapper-lg he-auto opacity-10 m-0">
+                        <!--<div id="dashboard-sparkline-4"></div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</a>
+<a href="#" data-toggle="modal" data-target="#modal_tabela_quadrinhos" class="text-decoration-none">
+  <div class="col-md-12 col-lg-12 col-xl-12">
+      <div class="card-hover-shadow-2x mb-3 card bg-light d-flex justify-content-center" style="height: 75px!important; flex-direction: row!important;">
+          <div class="rm-border bg-light responsive-center text-center">
+              <i class="fas fa-minus text-danger" style="font-size: 30px; margin-top: 20px; margin-right: 20px"></i>
+          </div>
+          <div class="widget-chart widget-chart2 text-center pt-0">
+              <div class="widget-chat-wrapper-outer">
+                  <div class="widget-chart-content">
+                      <div class="widget-chart-flex">
+                          <div class="widget-numbers">
+                              <div class="widget-chart" style="margin-top: 3px!important;">
+                                  <a href="#" data-toggle="modal" data-target="#modal_tabela_quadrinhos" onclick="" class="text-decoration-none">
+                                      <div class="text-danger"><span style="font-size: 24px;"><b>Remover Quadrinhos</b></span></div>
+                                  </a>
+                                  <div class="text-danger"><span style="font-size: 16px; margin-top: -30px">Remover Quadrinhos</span></div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div
+                      class="widget-chart-wrapper widget-chart-wrapper-lg he-auto opacity-10 m-0">
+                      <!--<div id="dashboard-sparkline-4"></div>-->
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</a>
+        <!-- Main row -->
+        <div class="row">
+            
+        </div>
+        <!-- /.row (main row) -->
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+    <strong>Copyright &copy; 2023-2032 <i>A LOLja Nerd</i>.</strong>
+    Todos os direitos reservados.
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Versão</b> 1.0.0
+    </div>
+  </footer>
+    
+  <!--  Modal Camisas -->
+  <div class="modal fade bd-example-modal-xl" id="modal_camisa_tab" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content ">
+          <div class="modal-header text-center">
+            <h4 class="modal-title white-text w-100 font-weight-bold py-2">Cadastrar Camisa</h4>
+            <button type="button" id="fechar_tabela" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true" class="white-text">&times;</span>
+            </button>
+          </div>
+        
+          <div class="modal-body">
+            <div id="tabela_head" class="row">
+                <div class="form-group col-md-6 d-flex flex-column">
+                    <label class="text-info" ><b>Nome do Produto</b></label>
+                    <input type="name" id="inp1" placeholder="Nome">
+                </div>
+                <div class="form-group col-md-6 d-flex flex-column">
+                    <label class="text-info" ><b>Preço do Produto</b></label>
+                    <input type="number" id="inp2" placeholder="20.99">
+                </div>
+                <div class="form-group col-md-6 d-flex flex-column">
+                    <label class="text-info" ><b>Imagem do Produto (Link)</b></label>
+                    <input type="text" id="inp3" placeholder="EX.: https://google.com.br/">
+                </div>
+                <div class="form-group col-md-6 d-flex flex-column">
+                    <label class="text-info" ><b>Tamanhos em estoque</b></label>
+                    <div class="row">
+                      <input type="checkbox" id="inpgg" value="GG">
+                      <label class="text-info" for="inpgg" style="margin: 5px;"> GG </label>
+                      <input type="checkbox" id="inpg" value="G">
+                      <label class="text-info" for="inpg" style="margin: 5px;"> G </label>
+                      <input type="checkbox" id="inpm" value="M">
+                      <label class="text-info" for="inpm" style="margin: 5px;"> M </label>
+                      <input type="checkbox" id="inpp" value="P">
+                      <label class="text-info" for="inpp" style="margin: 5px;"> P </label>
+                      <input type="checkbox" id="inppp" value="PP">
+                      <label class="text-info" for="inppp" style="margin: 5px;"> PP </label>
+                    </div>
+                    
+                </div>
+            </div>
+          </div>
+
+        
+          <div class="modal-footer justify-content-center">
+           <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">Cancelar</button>
+           <button type="button" class="btn btn-success" onclick="cadastrar_camisa()">Cadastrar</button>
+           </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  Modal Canecas -->
+  <div class="modal fade bd-example-modal-xl" id="modal_caneca_tab" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content ">
+        <div class="modal-header text-center">
+          <h4 class="modal-title white-text w-100 font-weight-bold py-2">Cadastrar Caneca</h4>
+          <button type="button" id="fechar_tabela" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" class="white-text">&times;</span>
+          </button>
+        </div>
+      
+        <div class="modal-body">
+          <div id="tabela_head" class="row">
+              <div class="form-group col-md-6 d-flex flex-column">
+                  <label class="text-info" ><b>Nome do Produto</b></label>
+                  <input type="name" id="inpc1" placeholder="Nome">
+              </div>
+              <div class="form-group col-md-6 d-flex flex-column">
+                  <label class="text-info" ><b>Preço do Produto</b></label>
+                  <input type="number" id="inpc2" placeholder="20.99">
+              </div>
+              <div class="form-group col-md-6 d-flex flex-column">
+                  <label class="text-info" ><b>Imagem do Produto (Link)</b></label>
+                  <input type="text" id="inpc3" placeholder="EX.: https://google.com.br/">
+              </div>
+              <div class="form-group col-md-6 d-flex flex-column">
+                  <label class="text-info" ><b>Tamanho do produto</b></label>
+                  <input type="text" id="inpc4" placeholder="Em ml | EX.: 500">               
+              </div>
+          </div>
+        </div>
+
+      
+        <div class="modal-footer justify-content-center">
+         <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">Cancelar</button>
+         <button type="button" class="btn btn-success" onclick="cadastrar_caneca()">Cadastrar</button>
+         </div>
+      </div>
+    </div>
+  </div>
+
+   <!--  Modal quadrinho -->
+   <div class="modal fade bd-example-modal-xl" id="modal_quadrinho_tab" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content ">
+        <div class="modal-header text-center">
+          <h4 class="modal-title white-text w-100 font-weight-bold py-2">Cadastrar Quadrinho</h4>
+          <button type="button" id="fechar_tabela" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" class="white-text">&times;</span>
+          </button>
+        </div>
+      
+        <div class="modal-body">
+          <div id="tabela_head" class="row">
+              <div class="form-group col-md-6 d-flex flex-column">
+                  <label class="text-info" ><b>Nome do Produto</b></label>
+                  <input type="name" id="inpq1" placeholder="Nome">
+              </div>
+              <div class="form-group col-md-6 d-flex flex-column">
+                  <label class="text-info" ><b>Preço do Produto</b></label>
+                  <input type="number" id="inpq2" placeholder="20.99">
+              </div>
+              <div class="form-group col-md-6 d-flex flex-column">
+                  <label class="text-info" ><b>Imagem do Produto (Link)</b></label>
+                  <input type="text" id="inpq3" placeholder="EX.: https://google.com.br/">
+              </div>
+              <div class="form-group col-md-6 d-flex flex-column">
+                  <label class="text-info" ><b>Autor do Produto</b></label>
+                  <input type="text" id="inpq4" placeholder="Ex.: Eichiro Oda">               
+              </div>
+              <div class="form-group col-md-6 d-flex flex-column">
+                <label class="text-info" ><b>Editora do Produto</b></label>
+                <input type="text" id="inpq5" placeholder="Ex.: Panini">           
+            </div>
+          </div>
+        </div>
+
+      
+        <div class="modal-footer justify-content-center">
+         <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">Cancelar</button>
+         <button type="button" class="btn btn-success" onclick="cadastrar_quadrinho()">Cadastrar</button>
+         </div>
+      </div>
+    </div>
+  </div>
+
+  <!--  Modal Tabela Camisas -->
+  <div class="modal fade bd-example-modal-xl" id="modal_tabela_camisas" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content ">
+        <div class="modal-header text-center">
+          <h4 class="modal-title white-text w-100 font-weight-bold py-2">Remover Produtos</h4>
+          <button type="button" id="fechar_tabela" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" class="white-text">&times;</span>
+          </button>
+        </div>
+      
+        <div class="modal-body">
+          <table class="table m-0">
+            <thead>
+            <tr>
+              <th class="col-2">Cod. Produto</th>
+              <th class="col-5">Nome</th>
+              <th class="col-3">Preço</th>
+              <th class="col-2">Ações</th>
+            </tr>
+            </thead>
+            <tbody id="tabela">
+              {% for produto in camisas %}
+              <tr>
+                <td><i>#{{ produto.numero_serie }}</i></td>
+                <td><div><img width="50" src="{{ produto.imagem }}" style="margin-right: 20px;" alt=""><strong>{{ produto.nome }}</strong></div></td>
+                <td>{{'%0.2f' % produto.preco|float }}</td>
+                <td>
+                  <div><button class="btn btn-danger" onclick="remover_camisa({{ produto.numero_serie }})">Remover</button></div>
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+
+      
+        <div class="modal-footer justify-content-center">
+         <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">Fechar</button>
+         </div>
+      </div>
+    </div>
+  </div>
+
+  <!--  Modal Tabela Canecas -->
+  <div class="modal fade bd-example-modal-xl" id="modal_tabela_canecas" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content ">
+        <div class="modal-header text-center">
+          <h4 class="modal-title white-text w-100 font-weight-bold py-2">Remover Produtos</h4>
+          <button type="button" id="fechar_tabela" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" class="white-text">&times;</span>
+          </button>
+        </div>
+      
+        <div class="modal-body">
+          <table class="table m-0">
+            <thead>
+            <tr>
+              <th class="col-2">Cod. Produto</th>
+              <th class="col-5">Nome</th>
+              <th class="col-3">Preço</th>
+              <th class="col-2">Ações</th>
+            </tr>
+            </thead>
+            <tbody id="tabela">
+              {% for produto in canecas %}
+              <tr>
+                <td><i>#{{ produto.numero_serie }}</i></td>
+                <td><div><img width="50" src="{{ produto.imagem }}" style="margin-right: 20px;" alt=""><strong>{{ produto.nome }}</strong></div></td>
+                <td>{{'%0.2f' % produto.preco|float }}</td>
+                <td>
+                  <div><button class="btn btn-danger" onclick="remover_caneca({{ produto.numero_serie }})">Remover</button></div>
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+
+      
+        <div class="modal-footer justify-content-center">
+         <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">Fechar</button>
+         </div>
+      </div>
+    </div>
+  </div>
+
+  <!--  Modal Tabela Camisas -->
+  <div class="modal fade bd-example-modal-xl" id="modal_tabela_quadrinhos" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content ">
+        <div class="modal-header text-center">
+          <h4 class="modal-title white-text w-100 font-weight-bold py-2">Remover Produtos</h4>
+          <button type="button" id="fechar_tabela" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" class="white-text">&times;</span>
+          </button>
+        </div>
+      
+        <div class="modal-body">
+          <table class="table m-0">
+            <thead>
+            <tr>
+              <th class="col-2">Cod. Produto</th>
+              <th class="col-5">Nome</th>
+              <th class="col-3">Preço</th>
+              <th class="col-2">Ações</th>
+            </tr>
+            </thead>
+            <tbody id="tabela">
+              {% for produto in quadrinhos %}
+              <tr>
+                <td><i>#{{ produto.numero_serie }}</i></td>
+                <td><div><img width="50" src="{{ produto.imagem }}" style="margin-right: 20px;" alt=""><strong>{{ produto.nome }}</strong></div></td>
+                <td>{{'%0.2f' % produto.preco|float }}</td>
+                <td>
+                  <div><button class="btn btn-danger" onclick="remover_quadrinho({{ produto.numero_serie }})">Remover</button></div>
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+
+      
+        <div class="modal-footer justify-content-center">
+         <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">Fechar</button>
+         </div>
+      </div>
+    </div>
+  </div>
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="{{ url_for('static', filename='plugins/jquery/jquery.min.js') }}"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="{{ url_for('static', filename='plugins/jquery-ui/jquery-ui.min.js') }}"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="{{ url_for('static', filename='plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<!-- ChartJS -->
+<script src="{{ url_for('static', filename='plugins/chart.js/Chart.min.js') }}"></script>
+<!-- Sparkline -->
+<script src="{{ url_for('static', filename='plugins/sparklines/sparkline.js') }}"></script>
+<!-- JQVMap -->
+<script src="{{ url_for('static', filename='plugins/jqvmap/jquery.vmap.min.js') }}"></script>
+<script src="{{ url_for('static', filename='plugins/jqvmap/maps/jquery.vmap.usa.js') }}"></script>
+<!-- jQuery Knob Chart -->
+<script src="{{ url_for('static', filename='plugins/jquery-knob/jquery.knob.min.js') }}"></script>
+<!-- daterangepicker -->
+<script src="{{ url_for('static', filename='plugins/moment/moment.min.js') }}"></script>
+<script src="{{ url_for('static', filename='plugins/daterangepicker/daterangepicker.js') }}"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="{{ url_for('static', filename='plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js') }}"></script>
+<!-- Summernote -->
+<script src="{{ url_for('static', filename='plugins/summernote/summernote-bs4.min.js') }}"></script>
+<!-- overlayScrollbars -->
+<script src="{{ url_for('static', filename='plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js') }}"></script>
+<!-- AdminLTE App -->
+<script src="{{ url_for('static', filename='dist/js/adminlte.js') }}"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="{{ url_for('static', filename='dist/js/demo.js') }}"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="{{ url_for('static', filename='dist/js/pages/dashboard.js') }}"></script>
+<script>
+    //triggered when modal is about to be shown
+    $('#modal_valor_tab').on('show.bs.modal', function(e) {
+    
+        //get data-id attribute of the clicked element
+        var bookId = $(e.relatedTarget).data('book-id');
+    
+        //populate the textbox
+        $(e.currentTarget).find('input[name="bookId"]').val(bookId);
+    });
+</script>
+<script>
+    function cadastrar_camisa(){
+            
+        let nome = $('#inp1').val();
+        let preco = $('#inp2').val();
+        let imagem = $('#inp3').val();
+        let gg = $('#inpgg').is(":checked")
+        let g = $('#inpg').is(":checked")
+        let m = $('#inpm').is(":checked")
+        let p = $('#inpp').is(":checked")
+        let pp = $('#inppp').is(":checked")
+        
+        $.ajax({
+          type: "POST",
+          url: "{{ url_for('cadastrar_camisa') }}",
+            cache: false,
+          data: {
+            nome : nome,
+            preco: preco,
+            imagem: imagem,
+            gg: gg,
+            g: g,
+            m: m,
+            p: p,
+            pp: pp
+          },
+          success: function(data) {
+            let dados = JSON.parse(data);
+            if(dados['status'] == "success"){
+              let dados = JSON.parse(data);
+              if(dados['status'] == "success"){
+                swal.fire("Success",dados['message'],"success");
+                  $('#inp1').val('');
+                  $('#inp2').val('');
+                  $('#inp3').val('');
+                  $('#inpgg').prop("checked", false);
+                  $('#inpg').prop("checked", false);
+                  $('#inpm').prop("checked", false);
+                  $('#inpp').prop("checked", false);
+                  $('#inppp').prop("checked", false);
+              }else{
+                swal.fire("Error!",dados['message'],"error");
+              }
+            }else{
+              swal.fire("Error!",dados['message'],"error");
+            }
+          }
+        });
+    }
+    function cadastrar_caneca(){
+            
+            let nome = $('#inpc1').val();
+            let preco = $('#inpc2').val();
+            let imagem = $('#inpc3').val();
+            let tamanho = $('#inpc4').val();
+            
+            $.ajax({
+              type: "POST",
+              url: "{{ url_for('cadastrar_caneca') }}",
+                cache: false,
+              data: {
+                nome : nome,
+                preco: preco,
+                imagem: imagem,
+                tamanho: tamanho
+              },
+              success: function(data) {
+                let dados = JSON.parse(data);
+                if(dados['status'] == "success"){
+                  let dados = JSON.parse(data);
+                  if(dados['status'] == "success"){
+                    swal.fire("Success",dados['message'],"success");
+                      $('#inpc1').val('');
+                      $('#inpc2').val('');
+                      $('#inpc3').val('');
+                      $('#inpc4').val('');
+                  }else{
+                    swal.fire("Error!",dados['message'],"error");
+                  }
+                }else{
+                  swal.fire("Error!",dados['message'],"error");
+                }
+              }
+            });
+        }
+        function cadastrar_quadrinho(){
+            
+            let nome = $('#inpq1').val();
+            let preco = $('#inpq2').val();
+            let imagem = $('#inpq3').val();
+            let autor = $('#inpq4').val();
+            let editora = $('#inpq5').val();
+            
+            $.ajax({
+              type: "POST",
+              url: "{{ url_for('cadastrar_quadrinho') }}",
+                cache: false,
+              data: {
+                nome : nome,
+                preco: preco,
+                imagem: imagem,
+                autor: autor,
+                editora: editora
+              },
+              success: function(data) {
+                let dados = JSON.parse(data);
+                if(dados['status'] == "success"){
+                  let dados = JSON.parse(data);
+                  if(dados['status'] == "success"){
+                    swal.fire("Success",dados['message'],"success");
+                      $('#inpq1').val('');
+                      $('#inpq2').val('');
+                      $('#inpq3').val('');
+                      $('#inpq4').val('');
+                      $('#inpq5').val('');
+                  }else{
+                    swal.fire("Error!",dados['message'],"error");
+                  }
+                }else{
+                  swal.fire("Error!",dados['message'],"error");
+                }
+              }
+            });
+        }
+</script>
+<script>
+  function remover_camisa(id){
+    
+    $.ajax({
+      type: "POST",
+      url: "remover_camisa",
+        cache: false,
+      data: {
+        id : id
+      },
+      success: function(data) {
+        let dados = JSON.parse(data);
+        if(dados['status'] == "success"){
+          swal.fire("Success",dados['message'],"success");
+        }
+        else{
+          swal.fire("Error!",dados['message'],"error");
+        }
+      }
+    });
+  }
+  function remover_caneca(id){
+    
+    $.ajax({
+      type: "POST",
+      url: "remover_caneca",
+        cache: false,
+      data: {
+        id : id
+      },
+      success: function(data) {
+        let dados = JSON.parse(data);
+        if(dados['status'] == "success"){
+          swal.fire("Success",dados['message'],"success");
+        }
+        else{
+          swal.fire("Error!",dados['message'],"error");
+        }
+      }
+    });
+  }
+  function remover_quadrinho(id){
+    
+    $.ajax({
+      type: "POST",
+      url: "remover_quadrinho",
+        cache: false,
+      data: {
+        id : id
+      },
+      success: function(data) {
+        let dados = JSON.parse(data);
+        if(dados['status'] == "success"){
+          swal.fire("Success",dados['message'],"success");
+        }
+        else{
+          swal.fire("Error!",dados['message'],"error");
+        }
+      }
+    });
+  }
+</script>
+</body>
+</html>

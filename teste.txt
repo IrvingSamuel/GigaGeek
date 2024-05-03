@@ -1,0 +1,8 @@
+1 - Para cada uma das equações, encontre dy/dx por derivação implícita.
+a) x²- 5xy + 3y² = 7
+b) x³ + y³ = 8
+c) 4x² + 9y² = 17
+d) 2x+3y/x²+y² = 9
+e) x2-y2/x²+y² 1/2 =
+f) sen(x/y) = 1/2
+g) xe^(x²+ y²) = 5

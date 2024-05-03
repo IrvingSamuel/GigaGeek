@@ -1,0 +1,8 @@
+1 :: Donkey Kong;17.99;https://cdn.awsli.com.br/600x1000/0/622/produto/131717006/fca20f8913.jpg;M,P,PP;84795
+2 :: Chaves;24.99;https://cdn.awsli.com.br/600x1000/0/622/produto/15153914/71a52f93a3.jpg;GG,G,M,P,PP;60120
+3 :: Thanos;59.9;https://cdn.awsli.com.br/600x1000/0/622/produto/31390289/18e61d6bfd.jpg;GG,G,M;33315
+4 :: Star Wars Gandalf;50.99;https://cdn.awsli.com.br/300x300/0/622/produto/113625228/9321ee0342.jpg;GG,G,M,P,PP;820
+5 :: Tim�o e Pumba;49.99;https://cdn.awsli.com.br/600x1000/0/622/produto/135143210/9b91754930.jpg;GG,G,M,P,PP;75165
+6 :: Jujutsu Kaisen;69.99;https://cdn.awsli.com.br/2500x2500/0/622/produto/198028738/imgsite-cm-jujutsu-kaisen-drt--2023-f1-6487df916b.jpg;GG,G,M,P,PP;47400
+7 :: Monkey D. Duffy ;159.9;https://cdn.awsli.com.br/600x1000/0/622/produto/150374988/af73c6f55d.jpg;GG,G,M,P,PP;59035
+8 :: Gon-Chan;239.9;https://cdn.awsli.com.br/300x300/0/622/produto/223922048/imgsite-2023-cm-gon-hunter-f1-66cp90wd8a.jpg;GG,G,M,P,PP;56615
