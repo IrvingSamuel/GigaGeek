@@ -1,4 +1,3 @@
-<img src="/img-readme/Diagrama-de-atividade.png">
 # GigaGeek - Loja Virtual de Produtos Geek
 
 Bem-vindo à GigaGeek! Este projeto é uma loja virtual onde os usuários podem comprar produtos personalizados com seus personagens favoritos de séries, animes e filmes. Nossa missão é oferecer uma vasta seleção de itens de alta qualidade para todos os fãs da cultura geek.
@@ -21,6 +20,9 @@ Bem-vindo à GigaGeek! Este projeto é uma loja virtual onde os usuários podem 
 ## Hospedagem
 
 O site está hospedado em: [GigaGeek](https://gigageek.takesagencia.com.br/)
+
+## Diagrama de Atividades
+<img src="/img-readme/Diagrama-de-atividade.png">
 
 ## Uso
 
