@@ -54,6 +54,4 @@ Os envolvidos no projeto são:
 
 Gostaria de expressar agradecimentos à toda a equipe. Encaramos desafios que fariam qualquer um desistir na primeira oportunidade, mas nós seguimos em frente e não desistimos! Elaboramos ideias pra todo lado, cada um contribuindo com sua genialidade.
 
-Tivemos muitos perrengues, teve perda de noção do tempo, muita procrastinação, mas conseguimos! Juntos, superamos tudo que apareceu no nosso caminho. Agora estamos aqui prontos pra encarar os próximos desafios que o destino nos reservar.
-
 Boa sorte a todos nós! <3
