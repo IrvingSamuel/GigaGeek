@@ -44,7 +44,7 @@ Os envolvidos no projeto são:
 - Breno Bitencourt
 - Carolina Lima
 - George Moraes
-- Irving Samuel
+- Irving Bandeira
 - Quezia Souza
 - Rodrigo Abreu
 - Shelda Azevedo
