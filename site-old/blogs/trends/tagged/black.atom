@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://anvanto-blackery-default.myshopify.com/blogs/trends.atom</id>
+  <link rel="alternate" type="text/html" href="https://anvanto-blackery-default.myshopify.com/blogs/trends"/>
+  <link rel="self" type="application/atom+xml" href="https://anvanto-blackery-default.myshopify.com/blogs/trends/tagged/black.atom"/>
+  <title>anvanto-blackery-default - Trends</title>
+  <updated>2019-05-17T08:14:00-04:00</updated>
+  <author>
+    <name>anvanto-blackery-default</name>
+  </author>
+  <entry>
+    <id>https://anvanto-blackery-default.myshopify.com/blogs/trends/aliquam-massa-erat-malesuada-ac</id>
+    <published>2019-05-17T08:14:00-04:00</published>
+    <updated>2019-05-17T08:15:15-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://anvanto-blackery-default.myshopify.com/blogs/trends/aliquam-massa-erat-malesuada-ac"/>
+    <title>Aliquam massa erat, malesuada ac</title>
+    <author>
+      <name>anvanto-blackery-default Admin</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>Mauris imperdiet sagittis urna, ac dapibus sapien malesuada vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam vel dolor venenatis, elementum lectus at, viverra orci. Aliquam varius sed libero quis accumsan. Ut accumsan neque nunc, eu blandit enim ultricies eu.</p>
+<p>Duis ut velit eu nisl mattis aliquet a malesuada leo. Praesent auctor libero erat, sit amet ullamcorper ante mattis eleifend. Praesent ac luctus erat. Aenean eros mi, suscipit ac efficitur vitae, aliquam non dui. Integer in neque purus. Donec dui velit, pharetra ac lacus vitae, euismod gravida justo. Praesent ultrices, est vitae laoreet scelerisque, justo justo porttitor enim, vitae blandit risus nunc et quam. Duis sed efficitur lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>]]>
+    </content>
+  </entry>
+</feed>

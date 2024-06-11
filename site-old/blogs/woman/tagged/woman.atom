@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://anvanto-blackery-default.myshopify.com/blogs/woman.atom</id>
+  <link rel="alternate" type="text/html" href="https://anvanto-blackery-default.myshopify.com/blogs/woman"/>
+  <link rel="self" type="application/atom+xml" href="https://anvanto-blackery-default.myshopify.com/blogs/woman/tagged/woman.atom"/>
+  <title>anvanto-blackery-default - Woman</title>
+  <updated>2019-05-17T08:15:00-04:00</updated>
+  <author>
+    <name>anvanto-blackery-default</name>
+  </author>
+  <entry>
+    <id>https://anvanto-blackery-default.myshopify.com/blogs/woman/maecenas-in-tincidunt-enim</id>
+    <published>2019-05-17T08:15:00-04:00</published>
+    <updated>2019-05-17T08:16:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://anvanto-blackery-default.myshopify.com/blogs/woman/maecenas-in-tincidunt-enim"/>
+    <title>Maecenas in tincidunt enim</title>
+    <author>
+      <name>anvanto-blackery-default Admin</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>Mauris imperdiet sagittis urna, ac dapibus sapien malesuada vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam vel dolor venenatis, elementum lectus at, viverra orci. Aliquam varius sed libero quis accumsan. Ut accumsan neque nunc, eu blandit enim ultricies eu. Duis ut velit eu nisl mattis aliquet a malesuada leo. Praesent auctor libero erat, sit amet ullamcorper ante mattis eleifend. Praesent ac luctus erat. Aenean eros mi, suscipit ac efficitur vitae, aliquam non dui. Integer in neque purus. Donec dui velit, pharetra ac lacus vitae, euismod gravida justo. Praesent ultrices, est vitae laoreet scelerisque, justo justo porttitor enim, vitae blandit risus nunc et quam. Duis sed efficitur lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+<p>Proin ac vulputate orci, vitae sagittis diam. Maecenas in tincidunt enim. Aenean vitae libero sed neque aliquet semper. Curabitur volutpat purus vitae purus sodales porta. Aliquam massa erat, malesuada ac tortor ut, facilisis porta lacus. Fusce at nisi eu lorem posuere accumsan. Nullam nisi diam, imperdiet at ullamcorper eget, rhoncus maximus metus. Suspendisse vestibulum tincidunt metus et tempor. Donec sollicitudin diam nunc, eget tincidunt quam rhoncus vel. Phasellus libero leo, accumsan vel eros nec, fringilla dapibus ante. Fusce mattis, magna nec faucibus mollis, justo libero ullamcorper metus, id consequat tortor tellus ac orci.</p>]]>
+    </content>
+  </entry>
+</feed>

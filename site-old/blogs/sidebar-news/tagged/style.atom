@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://anvanto-blackery-default.myshopify.com/blogs/sidebar-news.atom</id>
+  <link rel="alternate" type="text/html" href="https://anvanto-blackery-default.myshopify.com/blogs/sidebar-news"/>
+  <link rel="self" type="application/atom+xml" href="https://anvanto-blackery-default.myshopify.com/blogs/sidebar-news/tagged/style.atom"/>
+  <title>anvanto-blackery-default - Sidebar news</title>
+  <updated>2019-03-21T03:58:00-04:00</updated>
+  <author>
+    <name>anvanto-blackery-default</name>
+  </author>
+  <entry>
+    <id>https://anvanto-blackery-default.myshopify.com/blogs/sidebar-news/lorem-ipsum-1</id>
+    <published>2019-03-21T03:58:00-04:00</published>
+    <updated>2019-05-17T07:52:05-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://anvanto-blackery-default.myshopify.com/blogs/sidebar-news/lorem-ipsum-1"/>
+    <title>Lorem ipsum dolor sit amet, consectetur adipiscing elit</title>
+    <author>
+      <name>anvanto-blackery-default Admin</name>
+    </author>
+    <content type="html">
+      <![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://anvanto-blackery-default.myshopify.com/blogs/sidebar-news/we-present-new-collection-2019</id>
+    <published>2019-03-21T03:54:00-04:00</published>
+    <updated>2019-05-17T07:51:49-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://anvanto-blackery-default.myshopify.com/blogs/sidebar-news/we-present-new-collection-2019"/>
+    <title>We present new collection 2019</title>
+    <author>
+      <name>anvanto-blackery-default Admin</name>
+    </author>
+    <content type="html">
+      <![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]>
+    </content>
+  </entry>
+</feed>

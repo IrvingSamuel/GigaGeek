@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://anvanto-blackery-default.myshopify.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://anvanto-blackery-default.myshopify.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://anvanto-blackery-default.myshopify.com/collections/sweatshirts.atom"/>
+  <title>anvanto-blackery-default</title>
+  <updated>2019-03-04T01:29:13-05:00</updated>
+  <author>
+    <name>anvanto-blackery-default</name>
+  </author>
+  <entry>
+    <id>https://anvanto-blackery-default.myshopify.com/products/1738075078707</id>
+    <published>2019-03-04T01:29:13-05:00</published>
+    <updated>2019-03-04T01:29:13-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://anvanto-blackery-default.myshopify.com/products/mix-print-long-sleeve-dress"/>
+    <title>Softspun Swing Dress</title>
+    <s:type>Dresses</s:type>
+    <s:vendor>anvanto</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0070/7615/1347/products/1_07664b10-40ee-4c8d-8084-a74e0a02b241.jpg?v=1554895370"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>anvanto<br>
+        <strong>Type: </strong>Dresses<br>
+        <strong>Price: </strong>
+            100.00 - 105.00
+            <a href="https://anvanto-blackery-default.myshopify.com/products/mix-print-long-sleeve-dress">(6 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Color_Black</s:tag>
+    <s:tag>Color_Crimson</s:tag>
+    <s:tag>Color_Gray</s:tag>
+    <s:tag>Price_$100.01 - $200.00</s:tag>
+    <s:tag>Size_L</s:tag>
+    <s:tag>Size_S</s:tag>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738075078707</id>
+      <title>Black / S</title>
+      <s:price currency="USD">101.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738075078707</id>
+      <title>Black / L</title>
+      <s:price currency="USD">102.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738075078707</id>
+      <title>Gray / S</title>
+      <s:price currency="USD">103.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738075078707</id>
+      <title>Gray / L</title>
+      <s:price currency="USD">104.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738075078707</id>
+      <title>Crimson / S</title>
+      <s:price currency="USD">105.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738075078707</id>
+      <title>Crimson / L</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://anvanto-blackery-default.myshopify.com/products/1738073800755</id>
+    <published>2019-03-04T01:27:35-05:00</published>
+    <updated>2019-03-04T01:27:35-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://anvanto-blackery-default.myshopify.com/products/scoop-cap-sleeve-stripe-tee"/>
+    <title>Modern Stripe T-Shirt</title>
+    <s:type>T-Shirts</s:type>
+    <s:vendor>anvanto</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0070/7615/1347/products/1_25ea74ef-2b22-445e-a63a-e477607b81f7.jpg?v=1554895440"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>anvanto<br>
+        <strong>Type: </strong>T-Shirts<br>
+        <strong>Price: </strong>
+            24.00 - 34.00
+            <a href="https://anvanto-blackery-default.myshopify.com/products/scoop-cap-sleeve-stripe-tee">(12 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Color_DarkRed</s:tag>
+    <s:tag>Color_DodgerBlue</s:tag>
+    <s:tag>Color_Gray</s:tag>
+    <s:tag>Color_White</s:tag>
+    <s:tag>Price_$0.01 - $50.00</s:tag>
+    <s:tag>Size_L</s:tag>
+    <s:tag>Size_M</s:tag>
+    <s:tag>Size_S</s:tag>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073800755</id>
+      <title>White / S</title>
+      <s:price currency="USD">34.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073800755</id>
+      <title>White / L</title>
+      <s:price currency="USD">33.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073800755</id>
+      <title>White / M</title>
+      <s:price currency="USD">24.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073800755</id>
+      <title>DodgerBlue / S</title>
+      <s:price currency="USD">25.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073800755</id>
+      <title>DodgerBlue / L</title>
+      <s:price currency="USD">26.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073800755</id>
+      <title>DodgerBlue / M</title>
+      <s:price currency="USD">28.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073800755</id>
+      <title>Gray / S</title>
+      <s:price currency="USD">32.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073800755</id>
+      <title>Gray / L</title>
+      <s:price currency="USD">27.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073800755</id>
+      <title>Gray / M</title>
+      <s:price currency="USD">31.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073800755</id>
+      <title>DarkRed / S</title>
+      <s:price currency="USD">30.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073800755</id>
+      <title>DarkRed / L</title>
+      <s:price currency="USD">29.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073800755</id>
+      <title>DarkRed / M</title>
+      <s:price currency="USD">28.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://anvanto-blackery-default.myshopify.com/products/1738073669683</id>
+    <published>2019-03-04T01:27:28-05:00</published>
+    <updated>2019-03-04T01:27:28-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://anvanto-blackery-default.myshopify.com/products/softspun-knit-tee"/>
+    <title>Modern Stripe T-Shirt</title>
+    <s:type>T-Shirts</s:type>
+    <s:vendor>anvanto</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0070/7615/1347/products/1_6bd39d37-82e8-45fc-9233-fec1bd4f1ef0.jpg?v=1554895468"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>anvanto<br>
+        <strong>Type: </strong>T-Shirts<br>
+        <strong>Price: </strong>
+            50.00 - 57.00
+            <a href="https://anvanto-blackery-default.myshopify.com/products/softspun-knit-tee">(12 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Color_Black</s:tag>
+    <s:tag>Color_Crimson</s:tag>
+    <s:tag>Color_Pink</s:tag>
+    <s:tag>Color_White</s:tag>
+    <s:tag>Price_$50.01 - $100.00</s:tag>
+    <s:tag>Size_S</s:tag>
+    <s:tag>Size_X</s:tag>
+    <s:tag>Size_XXS</s:tag>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073669683</id>
+      <title>White / XXS</title>
+      <s:price currency="USD">55.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073669683</id>
+      <title>White / X</title>
+      <s:price currency="USD">56.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073669683</id>
+      <title>White / S</title>
+      <s:price currency="USD">52.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073669683</id>
+      <title>Black / XXS</title>
+      <s:price currency="USD">54.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073669683</id>
+      <title>Black / X</title>
+      <s:price currency="USD">57.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073669683</id>
+      <title>Black / S</title>
+      <s:price currency="USD">54.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073669683</id>
+      <title>Crimson / XXS</title>
+      <s:price currency="USD">53.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073669683</id>
+      <title>Crimson / X</title>
+      <s:price currency="USD">53.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073669683</id>
+      <title>Crimson / S</title>
+      <s:price currency="USD">52.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073669683</id>
+      <title>Pink / XXS</title>
+      <s:price currency="USD">50.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073669683</id>
+      <title>Pink / X</title>
+      <s:price currency="USD">51.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073669683</id>
+      <title>Pink / S</title>
+      <s:price currency="USD">56.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://anvanto-blackery-default.myshopify.com/products/1738073473075</id>
+    <published>2019-03-04T01:27:13-05:00</published>
+    <updated>2019-03-04T01:27:13-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://anvanto-blackery-default.myshopify.com/products/embroidered-yoke-sweatshirt"/>
+    <title>Funnel-Neck Sweatshirt</title>
+    <s:type>Sweatshirts</s:type>
+    <s:vendor>anvanto</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0070/7615/1347/products/1_33a4967f-dbdf-48b1-a7d4-17490c79d209.jpg?v=1554895552"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>anvanto<br>
+        <strong>Type: </strong>Sweatshirts<br>
+        <strong>Price: </strong>
+            70.00 - 80.00
+            <a href="https://anvanto-blackery-default.myshopify.com/products/embroidered-yoke-sweatshirt">(12 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Color_Black</s:tag>
+    <s:tag>Color_Gray</s:tag>
+    <s:tag>Color_White</s:tag>
+    <s:tag>Price_$50.01 - $100.00</s:tag>
+    <s:tag>Size_L</s:tag>
+    <s:tag>Size_M</s:tag>
+    <s:tag>Size_S</s:tag>
+    <s:tag>Size_XXS</s:tag>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073473075</id>
+      <title>White / XXS</title>
+      <s:price currency="USD">73.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073473075</id>
+      <title>White / S</title>
+      <s:price currency="USD">74.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073473075</id>
+      <title>White / M</title>
+      <s:price currency="USD">72.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073473075</id>
+      <title>White / L</title>
+      <s:price currency="USD">71.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073473075</id>
+      <title>Black / XXS</title>
+      <s:price currency="USD">70.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073473075</id>
+      <title>Black / S</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073473075</id>
+      <title>Black / M</title>
+      <s:price currency="USD">76.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073473075</id>
+      <title>Black / L</title>
+      <s:price currency="USD">77.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073473075</id>
+      <title>Gray / XXS</title>
+      <s:price currency="USD">78.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073473075</id>
+      <title>Gray / S</title>
+      <s:price currency="USD">79.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073473075</id>
+      <title>Gray / M</title>
+      <s:price currency="USD">80.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073473075</id>
+      <title>Gray / L</title>
+      <s:price currency="USD">70.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://anvanto-blackery-default.myshopify.com/products/1738073309235</id>
+    <published>2019-03-04T01:27:06-05:00</published>
+    <updated>2019-03-04T01:27:06-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://anvanto-blackery-default.myshopify.com/products/happy-intarsia-crewneck-sweater"/>
+    <title>Long Sleeve Jersey</title>
+    <s:type>Sweatshirts</s:type>
+    <s:vendor>anvanto</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0070/7615/1347/products/1_ca48dfef-0932-47c9-a871-9b37e12226bb.jpg?v=1554895522"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>anvanto<br>
+        <strong>Type: </strong>Sweatshirts<br>
+        <strong>Price: </strong>
+            29.00 - 40.00
+            <a href="https://anvanto-blackery-default.myshopify.com/products/happy-intarsia-crewneck-sweater">(12 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Color_Black</s:tag>
+    <s:tag>Color_Gray</s:tag>
+    <s:tag>Color_White</s:tag>
+    <s:tag>Price_$0.01 - $50.00</s:tag>
+    <s:tag>Size_M</s:tag>
+    <s:tag>Size_S</s:tag>
+    <s:tag>Size_XL</s:tag>
+    <s:tag>Size_XXL</s:tag>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073309235</id>
+      <title>White / S</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073309235</id>
+      <title>White / M</title>
+      <s:price currency="USD">37.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073309235</id>
+      <title>White / XL</title>
+      <s:price currency="USD">35.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073309235</id>
+      <title>White / XXL</title>
+      <s:price currency="USD">34.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073309235</id>
+      <title>Black / S</title>
+      <s:price currency="USD">33.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073309235</id>
+      <title>Black / M</title>
+      <s:price currency="USD">38.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073309235</id>
+      <title>Black / XL</title>
+      <s:price currency="USD">32.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073309235</id>
+      <title>Black / XXL</title>
+      <s:price currency="USD">31.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073309235</id>
+      <title>Gray / S</title>
+      <s:price currency="USD">30.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073309235</id>
+      <title>Gray / M</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073309235</id>
+      <title>Gray / XL</title>
+      <s:price currency="USD">40.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073309235</id>
+      <title>Gray / XXL</title>
+      <s:price currency="USD">29.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://anvanto-blackery-default.myshopify.com/products/1738073145395</id>
+    <published>2019-03-04T01:27:01-05:00</published>
+    <updated>2019-03-04T01:27:01-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://anvanto-blackery-default.myshopify.com/products/slouchy-pullover-sweatshirt"/>
+    <title>Glitter Logo Sweatshirt</title>
+    <s:type>Sweatshirts</s:type>
+    <s:vendor>anvanto</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0070/7615/1347/products/1_63e3c8c0-4758-4f2c-8fe3-365175812ca4.jpg?v=1554895533"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>anvanto<br>
+        <strong>Type: </strong>Sweatshirts<br>
+        <strong>Price: </strong>
+            30.00 - 39.00
+            <a href="https://anvanto-blackery-default.myshopify.com/products/slouchy-pullover-sweatshirt">(10 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Color_Crimson</s:tag>
+    <s:tag>Color_DarkRed</s:tag>
+    <s:tag>Color_DodgerBlue</s:tag>
+    <s:tag>Color_Gray</s:tag>
+    <s:tag>Color_White</s:tag>
+    <s:tag>Price_$0.01 - $50.00</s:tag>
+    <s:tag>Size_L</s:tag>
+    <s:tag>Size_M</s:tag>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073145395</id>
+      <title>White / M</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073145395</id>
+      <title>White / L</title>
+      <s:price currency="USD">38.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073145395</id>
+      <title>Crimson / M</title>
+      <s:price currency="USD">37.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073145395</id>
+      <title>Crimson / L</title>
+      <s:price currency="USD">36.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073145395</id>
+      <title>DodgerBlue / M</title>
+      <s:price currency="USD">35.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073145395</id>
+      <title>DodgerBlue / L</title>
+      <s:price currency="USD">34.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073145395</id>
+      <title>Gray / M</title>
+      <s:price currency="USD">33.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073145395</id>
+      <title>Gray / L</title>
+      <s:price currency="USD">32.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073145395</id>
+      <title>DarkRed / M</title>
+      <s:price currency="USD">31.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073145395</id>
+      <title>DarkRed / L</title>
+      <s:price currency="USD">30.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://anvanto-blackery-default.myshopify.com/products/1738073014323</id>
+    <published>2019-03-04T01:26:53-05:00</published>
+    <updated>2019-03-04T01:26:53-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://anvanto-blackery-default.myshopify.com/products/soft-open-v-neck-sweater"/>
+    <title>Crop Pullover Hoodie</title>
+    <s:type>Sweatshirts</s:type>
+    <s:vendor>anvanto</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0070/7615/1347/products/1_3d2181fa-0bda-451c-bc88-2a311f1e5b30.jpg?v=1554895621"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>anvanto<br>
+        <strong>Type: </strong>Sweatshirts<br>
+        <strong>Price: </strong>
+            58.00 - 71.00
+            <a href="https://anvanto-blackery-default.myshopify.com/products/soft-open-v-neck-sweater">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Color_Black</s:tag>
+    <s:tag>Color_DodgerBlue</s:tag>
+    <s:tag>Color_Gray</s:tag>
+    <s:tag>Color_White</s:tag>
+    <s:tag>Price_$50.01 - $100.00</s:tag>
+    <s:tag>Size_L</s:tag>
+    <s:tag>Size_M</s:tag>
+    <s:tag>Size_S</s:tag>
+    <s:tag>Size_XXXL</s:tag>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073014323</id>
+      <title>White / S</title>
+      <s:price currency="USD">69.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073014323</id>
+      <title>White / XXXL</title>
+      <s:price currency="USD">68.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073014323</id>
+      <title>White / M</title>
+      <s:price currency="USD">67.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073014323</id>
+      <title>White / L</title>
+      <s:price currency="USD">65.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073014323</id>
+      <title>Black / S</title>
+      <s:price currency="USD">64.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073014323</id>
+      <title>Black / XXXL</title>
+      <s:price currency="USD">63.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073014323</id>
+      <title>Black / M</title>
+      <s:price currency="USD">62.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073014323</id>
+      <title>Black / L</title>
+      <s:price currency="USD">61.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073014323</id>
+      <title>DodgerBlue / S</title>
+      <s:price currency="USD">60.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073014323</id>
+      <title>DodgerBlue / XXXL</title>
+      <s:price currency="USD">70.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073014323</id>
+      <title>DodgerBlue / M</title>
+      <s:price currency="USD">68.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073014323</id>
+      <title>DodgerBlue / L</title>
+      <s:price currency="USD">71.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073014323</id>
+      <title>Gray / S</title>
+      <s:price currency="USD">69.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073014323</id>
+      <title>Gray / XXXL</title>
+      <s:price currency="USD">68.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073014323</id>
+      <title>Gray / M</title>
+      <s:price currency="USD">59.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://anvanto-blackery-default.myshopify.com/products/1738073014323</id>
+      <title>Gray / L</title>
+      <s:price currency="USD">58.00</s:price>
+      <s:sku>1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>
