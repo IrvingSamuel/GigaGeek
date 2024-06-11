@@ -1,0 +1,24 @@
+# Ativa o mecanismo de reescrita
+RewriteEngine On
+
+# Oculta a extensão .php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L,QSA]
+
+# Oculta a extensão .html
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [L,QSA]
+
+# Oculta a extensão .htm
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.htm -f
+RewriteRule ^(.*)$ $1.htm [L,QSA]
+
+# Oculta a extensão .txt
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.txt -f
+RewriteRule ^(.*)$ $1.txt [L,QSA]
+
+# Adicione mais regras aqui se necessário, substituindo .ext pela extensão desejada
