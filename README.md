@@ -1,6 +1,6 @@
 # GigaGeek - Loja Virtual de Produtos Geek
 
-![GigaGeek Logo](https://example.com/logo.png)
+![GigaGeek Logo](./cdn/shop/files/Debug_Style_1_380x2e79.png)
 
 Bem-vindo à GigaGeek! Este projeto é uma loja virtual onde os usuários podem comprar produtos personalizados com seus personagens favoritos de séries, animes e filmes. Nossa missão é oferecer uma vasta seleção de itens de alta qualidade para todos os fãs da cultura geek.
 
@@ -20,7 +20,7 @@ Bem-vindo à GigaGeek! Este projeto é uma loja virtual onde os usuários podem 
 - *Checkout Seguro*: Realize pagamentos de forma segura e confiável com várias opções de pagamento.
 - *Perfil do Usuário*: Crie e gerencie seu perfil, acompanhe seus pedidos e veja seu histórico de compras.
 
-![Esquema](https://lucid.app/lucidchart/cdf2a960-ab7a-459d-875c-ceff436d5c8d/edit?viewport_loc=-930%2C26%2C3187%2C1510%2C0_0&invitationId=inv_9bc7afc8-7277-441d-847e-bd82368d0db8 )
+![Esquema](./assets/img/Diagrama de atividade.png)
   
 ## Hospedagem
 
