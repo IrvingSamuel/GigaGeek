@@ -1,6 +1,6 @@
 # GigaGeek - Loja Virtual de Produtos Geek
 
-![GigaGeek Logo](./cdn/shop/files/Debug_Style_1_380x2e79.png "Logo")
+![GigaGeek Logo](cdn/shop/files/Debug_Style_1_380x2e79.png "Logo")
 
 Bem-vindo à GigaGeek! Este projeto é uma loja virtual onde os usuários podem comprar produtos personalizados com seus personagens favoritos de séries, animes e filmes. Nossa missão é oferecer uma vasta seleção de itens de alta qualidade para todos os fãs da cultura geek.
 
